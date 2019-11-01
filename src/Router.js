@@ -8,10 +8,11 @@ import NotFound from './components/common/not-found/NotFound';
 const Router = () => (
    <HashRouter basename='/'>
         <Switch>
-            <Route exact path='/' component={Liga} />
-            <Route path='league/liga' component={Liga} />
-            <Route path='league/calendario/:equipo' component={Calendario} />
-            <Route path='league/calendarios' component={Calendario} />
+            <Route exact path='/league' component={Liga} />
+            <Route exact path='https://luisgarcesleon.github.io/league/' component={Liga} />
+            <Route path='https://luisgarcesleon.github.io/league/liga' component={Liga} />
+            <Route path='https://luisgarcesleon.github.io/league/calendario/:equipo' component={Calendario} />
+            <Route path='https://luisgarcesleon.github.io/league/calendarios' component={Calendario} />
             <Route component={NotFound} />
         </Switch>
     </HashRouter>
