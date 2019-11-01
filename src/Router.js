@@ -15,6 +15,6 @@ const Router = () => (
             <Route component={NotFound} />
         </Switch>
     </HashRouter>
-)
+) 
 
 export default Router;
