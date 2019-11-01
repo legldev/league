@@ -9,9 +9,9 @@ const Router = () => (
    <HashRouter basename='/'>
         <Switch>
             <Route exact path='/' component={Liga} />
-            <Route path='/liga' component={Liga} />
-            <Route path='/calendario/:equipo' component={Calendario} />
-            <Route path='/calendarios' component={Calendario} />
+            <Route path='league/liga' component={Liga} />
+            <Route path='league/calendario/:equipo' component={Calendario} />
+            <Route path='league/calendarios' component={Calendario} />
             <Route component={NotFound} />
         </Switch>
     </HashRouter>
