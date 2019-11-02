@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/league/static/css/main.dd953e30.chunk.css",
-    "main.js": "/league/static/js/main.85a9468e.chunk.js",
-    "main.js.map": "/league/static/js/main.85a9468e.chunk.js.map",
+    "main.js": "/league/static/js/main.f6da7a00.chunk.js",
+    "main.js.map": "/league/static/js/main.f6da7a00.chunk.js.map",
     "runtime-main.js": "/league/static/js/runtime-main.b075c37f.js",
     "runtime-main.js.map": "/league/static/js/runtime-main.b075c37f.js.map",
-    "static/js/2.8d92616c.chunk.js": "/league/static/js/2.8d92616c.chunk.js",
-    "static/js/2.8d92616c.chunk.js.map": "/league/static/js/2.8d92616c.chunk.js.map",
+    "static/js/2.6424007d.chunk.js": "/league/static/js/2.6424007d.chunk.js",
+    "static/js/2.6424007d.chunk.js.map": "/league/static/js/2.6424007d.chunk.js.map",
     "index.html": "/league/index.html",
-    "precache-manifest.f57574cae5f0100f4bdba40ea3e43c85.js": "/league/precache-manifest.f57574cae5f0100f4bdba40ea3e43c85.js",
+    "precache-manifest.c63873c6f28487aa6db6986d275b842d.js": "/league/precache-manifest.c63873c6f28487aa6db6986d275b842d.js",
     "service-worker.js": "/league/service-worker.js",
     "static/css/main.dd953e30.chunk.css.map": "/league/static/css/main.dd953e30.chunk.css.map",
     "static/media/carolina.png": "/league/static/media/carolina.b4a99d01.png",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b075c37f.js",
-    "static/js/2.8d92616c.chunk.js",
+    "static/js/2.6424007d.chunk.js",
     "static/css/main.dd953e30.chunk.css",
-    "static/js/main.85a9468e.chunk.js"
+    "static/js/main.f6da7a00.chunk.js"
   ]
 }
