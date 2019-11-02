@@ -6,7 +6,7 @@ import Calendario from './components/calendario/Calendario';
 import NotFound from './components/common/not-found/NotFound';
 
 const Router = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename="league">
         <Switch>
             <Route exact path='/' component={Liga} />
             <Route path='/liga' component={Liga} />
