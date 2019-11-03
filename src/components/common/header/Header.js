@@ -12,7 +12,7 @@ import './Header.css';
 class Header extends Component {
     render() {
         return (
-            <div className="app-bar">
+           <a href="/"> <div className="app-bar">
                 <AppBar position="static">
                     <Toolbar>
                         <div className="logo"></div>
@@ -20,16 +20,17 @@ class Header extends Component {
 
                         </Typography>
 
-                        <Button color="inherit" >
-                            <a href="/league/#/liga">Equipos</a>
+                        <Button color="inherit">
+                            <a href="/liga">Equipos</a>
                         </Button>
-                        <Button color="inherit" >
-                            <a href="/league/#/calendarios">Calendarios</a>
+                        <Button color="inherit">
+                            <a href="/calendarios">Calendarios</a>
                         </Button>
+
 
                     </Toolbar>
                 </AppBar>
-            </div>
+            </div></a>
         );
     }
 }
