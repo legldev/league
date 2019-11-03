@@ -21,10 +21,10 @@ class Header extends Component {
                         </Typography>
 
                         <Button color="inherit" >
-                            <a href="/#/liga">Equipos</a>
+                            <a href="/league/#/liga">Equipos</a>
                         </Button>
                         <Button color="inherit" >
-                            <a href="/#/calendarios">Calendarios</a>
+                            <a href="/league/#/calendarios">Calendarios</a>
                         </Button>
 
                     </Toolbar>
