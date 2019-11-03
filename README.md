@@ -1,3 +1,9 @@
+## English Notes
+This App is made in React + Material UI. It consumes data from a Remote and Local API and uses HashRouter to be able to link from one component to another. Also use localStorage to be able to store information offline.
+
+## Notas en español
+Esta App está hecha en React + Material UI. Consume datos de una API Remota y Local y usa HashRouter para poder enlazar de un componente a otro. Usa también localStorage para poder almacenar información sin conexión.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
