@@ -12,25 +12,25 @@ import './Header.css';
 class Header extends Component {
     render() {
         return (
-           <a href="/"> <div className="app-bar">
+           <div className="app-bar">
                 <AppBar position="static">
                     <Toolbar>
-                        <div className="logo"></div>
+                    <a href={process.env.PUBLIC_URL + '/#/'}>  <div className="logo"></div></a>
                         <Typography variant="title" color="inherit" className="flex">
 
                         </Typography>
 
                         <Button color="inherit">
-                            <a href="/liga">Equipos</a>
+                            <a href={process.env.PUBLIC_URL + '/#/liga'}>Equipos</a>
                         </Button>
                         <Button color="inherit">
-                            <a href="/calendarios">Calendarios</a>
+                            <a href={process.env.PUBLIC_URL + '/#/calendarios'}>Calendarios</a>
                         </Button>
 
 
                     </Toolbar>
                 </AppBar>
-            </div></a>
+            </div>
         );
     }
 }
